@@ -51122,3 +51122,42 @@ File Path                               PID    Runtime      # DAGs    # Errors  
 /opt/airflow/dags/retrain_the_model.py                           1           0  0.07s           2024-08-15T23:39:28
 /opt/airflow/dags/etl_process.py                                 1           0  0.07s           2024-08-15T23:39:28
 ================================================================================
+[2024-08-15T23:40:18.554+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/retrain_the_model.py                           1           0  0.14s           2024-08-15T23:39:59
+/opt/airflow/dags/etl_process.py                                 1           0  0.13s           2024-08-15T23:39:59
+================================================================================
+[2024-08-15T23:40:48.903+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/retrain_the_model.py                           1           0  0.08s           2024-08-15T23:40:29
+/opt/airflow/dags/etl_process.py                                 1           0  0.07s           2024-08-15T23:40:29
+================================================================================
+[2024-08-15T23:41:19.216+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/retrain_the_model.py                           1           0  0.15s           2024-08-15T23:41:00
+/opt/airflow/dags/etl_process.py                                 1           0  0.14s           2024-08-15T23:41:00
+================================================================================
+[2024-08-15T23:41:43.636+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-08-15T23:41:43.643+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-15T23:41:49.792+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/retrain_the_model.py                           1           0  0.16s           2024-08-15T23:41:30
+/opt/airflow/dags/etl_process.py                                 1           0  0.15s           2024-08-15T23:41:30
+================================================================================
+[2024-08-15T23:41:57.523+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
