@@ -1,0 +1,32 @@
+[2024-08-11T23:58:07.357+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/etl_process.py
+[2024-08-11T23:58:07.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_process.py for tasks to queue
+[2024-08-11T23:58:07.359+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:58:07.368+0000] {processor.py:840} INFO - DAG(s) 'process_etl_heart_data' retrieved from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:58:07.458+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.458+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:process_etl_heart_data
+[2024-08-11T23:58:07.463+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.463+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:process_etl_heart_data
+[2024-08-11T23:58:07.466+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.465+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:process_etl_heart_data
+[2024-08-11T23:58:07.466+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-08-11T23:58:07.471+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.471+0000] {dag.py:3058} INFO - Creating ORM DAG for process_etl_heart_data
+[2024-08-11T23:58:07.475+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:07.475+0000] {dag.py:3823} INFO - Setting next_dagrun for process_etl_heart_data to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T23:58:07.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_process.py took 0.129 seconds
+[2024-08-11T23:58:37.656+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/etl_process.py
+[2024-08-11T23:58:37.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_process.py for tasks to queue
+[2024-08-11T23:58:37.657+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:37.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:58:37.667+0000] {processor.py:840} INFO - DAG(s) 'process_etl_heart_data' retrieved from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:58:37.680+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:37.680+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-08-11T23:58:37.688+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:58:37.688+0000] {dag.py:3823} INFO - Setting next_dagrun for process_etl_heart_data to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T23:58:37.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_process.py took 0.043 seconds
+[2024-08-11T23:59:07.963+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/etl_process.py
+[2024-08-11T23:59:07.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_process.py for tasks to queue
+[2024-08-11T23:59:07.964+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:59:07.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:59:07.973+0000] {processor.py:840} INFO - DAG(s) 'process_etl_heart_data' retrieved from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:59:07.986+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:59:07.986+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-08-11T23:59:07.996+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:59:07.995+0000] {dag.py:3823} INFO - Setting next_dagrun for process_etl_heart_data to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T23:59:08.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_process.py took 0.042 seconds
+[2024-08-11T23:59:38.325+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/etl_process.py
+[2024-08-11T23:59:38.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_process.py for tasks to queue
+[2024-08-11T23:59:38.326+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:59:38.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:59:38.335+0000] {processor.py:840} INFO - DAG(s) 'process_etl_heart_data' retrieved from /opt/airflow/dags/etl_process.py
+[2024-08-11T23:59:38.348+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:59:38.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-08-11T23:59:38.357+0000] {logging_mixin.py:188} INFO - [2024-08-11T23:59:38.357+0000] {dag.py:3823} INFO - Setting next_dagrun for process_etl_heart_data to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T23:59:38.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_process.py took 0.043 seconds
