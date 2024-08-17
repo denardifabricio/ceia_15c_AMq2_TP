@@ -105,6 +105,8 @@ services:
       /usr/bin/mc policy download s3/${MLFLOW_BUCKET_NAME:-mlflow};
       [[ ! -z "`/usr/bin/mc ls s3 | grep challenge`" ]] || /usr/bin/mc mb s3/${DATA_REPO_BUCKET_NAME:-data};
       /usr/bin/mc policy download s3/${DATA_REPO_BUCKET_NAME:-data};
+      [[ ! -z "`/usr/bin/mc ls s3 | grep challenge`" ]] || /usr/bin/mc mb s3/${PROPERTIES_REPO_BUCKET_NAME:-data};
+      /usr/bin/mc policy download s3/${PROPERTIES_REPO_BUCKET_NAME:-data};
       exit 0;
       '
 
